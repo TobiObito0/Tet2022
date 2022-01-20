@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Neonderthaw&display=swap" rel="stylesheet">
+
+    <title>Chúc Mừng Năm Mới - Năm 2022</title>
+  </head>
+  <body>
+    <!-- MIDDLE -->
+    <div class="text-box">
+      <h1>HAPPY NEW YEAR</h1>
+    </div>
+    <div class="music">
+      <h3 class="music-name">Chúc Mừng Năm Mới</h3>
+      <input type="range" name="range" id="range" class="range" />
+      <audio src="./music/ABBA  Happy New Year Video.mp3" id="song"></audio>
+      <div class="timer">
+        <div class="remaining">4:28</div>
+        <div class="duration">0:00</div>
+      </div>
+      <div class="grid-container">
+      <div class="img">
+        <img src="./img/1.jpg" alt="">
+      </div>
+      <div class="controls">
+        <i class="fa fa-backward" style="cursor: pointer"></i>
+        <div class="player-inner" style="cursor: pointer">
+          <i
+            class="fa fa-play"
+            id="play-icon"
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              cursor: pointer;
+            "
+          ></i>
+        </div>
+        <i class="fa fa-forward" style="cursor: pointer"></i>
+      </div>
+    </div>
+    </div>
+  </body>
+  <script src="./script/script.js"></script>
+  <script src="./script/app.js"></script>
+</html>

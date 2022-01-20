@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+}
+
+.text-box {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.text-box h1 {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Neonderthaw', cursive; 
+  color: red; 
+  font-size: 35px;
+}
+
+.music {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 15px 15px 30px;
+}
+
+.music-name {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: red;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #999;
+  margin-top: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+img {
+  width: 30vh;
+  height: 15rem;
+}
+
+.img:hover {
+  transform: rotate(360deg) scale(1.25) translateX(50px);
+  transition: 2s;
+}
+
+.controls {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 0 20px;
+}
+
+.range {
+  width: 100%;
+  background: transparent;
+  height: 5px;
+}
